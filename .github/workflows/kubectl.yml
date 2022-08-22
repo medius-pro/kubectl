@@ -5,7 +5,6 @@ on:
     branches: [ "main" ]
     tags-ignore: [ "*" ]
 
-
 env:
   KUBECTL_VERSION: "1.22.11"
   KUBECTL_SHA256: "a61c697e3c9871da7b609511248e41d9c9fb6d9e50001425876676924761586b"
