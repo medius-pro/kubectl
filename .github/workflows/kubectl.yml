@@ -6,8 +6,8 @@ on:
     tags-ignore: [ "*" ]
 
 env:
-  KUBECTL_VERSION: "1.22.11"
-  KUBECTL_SHA256: "a61c697e3c9871da7b609511248e41d9c9fb6d9e50001425876676924761586b"
+  KUBECTL_VERSION: "1.26.3"
+  KUBECTL_SHA256: "026c8412d373064ab0359ed0d1a25c975e9ce803a093d76c8b30c5996ad73e75"
   KUBECTL_IMAGE: ghcr.io/${{ github.repository }}
 
 jobs:
